@@ -1,6 +1,5 @@
 package us.codecraft.xsoup.xevaluator;
 
-import org.jsoup.examples.HtmlToPlainText;
 import org.jsoup.helper.Validate;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
@@ -80,7 +79,7 @@ public abstract class ElementOperator {
 
         @Override
         public String operate(Element element) {
-            return new HtmlToPlainText().getPlainText(element);
+            return element.ownText();
         }
 
         @Override

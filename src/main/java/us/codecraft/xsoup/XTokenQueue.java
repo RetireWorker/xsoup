@@ -1,7 +1,8 @@
 package us.codecraft.xsoup;
 
-import org.jsoup.helper.StringUtil;
+
 import org.jsoup.helper.Validate;
+import org.jsoup.internal.StringUtil;
 
 import java.util.ArrayList;
 import java.util.List;
